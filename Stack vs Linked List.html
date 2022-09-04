@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stack VS Linked List</title>
+       
+    </head>
+    <body>
+       
+       <section class="banner" >
+           <div class="content">
+               <h2>Stacks VS Linked Lists</h2>
+               <p>LAIBA KHALID <br>20-CS-74</p>
+           </div>
+       </section> 
+
+       <section>
+        <div class="title">
+            <div class="row">
+             <div class="col50">
+                <h2 class="titleText"><span>STACK</span></h2></div>
+             <div class="col50">
+                <h2 class="titleText"><span>LINKED LIST</span></h2></div>
+            </div>
+            <h2 class="titleText"><span>⋄</span>Definition<span>⋄</span></h2>
+        </div>
+        <div class="content">
+            <div class="row">
+            <div class="col50">
+                <p>
+                    A stack is an abstract data type that serves as a collection of elements with two principal operations which are push and pop.</p>
+            </div>
+
+            <div class="col50">
+                <p>  A linked list is a linear collection of data elements whose order is not given by their location in memory, they are not stored at contiguous memory locations.</p>
+            </div>  
+         </div>  
+
+
+<div class="title">
+             <h2 class="titleText"><span>⋄</span>Basic Structure & Function<span>⋄</span></h2>
+        </div>
+ <div class="content">
+            <div class="row">
+            <div class="col50">
+                <p>
+                    A stack is a stack-like data structure with a certain interface and behavior: elements can be added to the stack with “push” and removed with “pop”, and they are removed in Last-In-First-Out order.</p>
+            </div>
+            <div class="col50">
+                <p> A linked list is a data structure with a certain relationship between elements in memory. The program keeps track of a “head” element, which has a pointer (reference, link, handle) to a “next” element.</p>
+            </div>  
+         </div>  
+
+
+         <div class="title">
+             <h2 class="titleText"><span>⋄</span>Diagram<span>⋄</span></h2>
+        </div>
+ <div class="content">
+            <div class="row">
+            <div class="col50">
+                <img src="stack.jpeg" alt="Linked List" style="width:500px;height:300px;">
+            </div>
+            <div class="col50">
+                <img src="linked.jpeg" alt="Stack" style="width:500px;height:300px;">
+            </div>  
+         </div>  
+
+        
+         <div class="title">
+             <h2 class="titleText"><span>⋄</span>Operations<span>⋄</span></h2>
+        </div>
+ <div class="content">
+            <div class="row">
+            <div class="col50">
+                <p>
+                    Following are the main operations performed on a stack</p><br>
+                <p><span>• Push: </span>Add an element to the top of a stack</p><br>
+                <p><span>• Pop: </span>Remove an element from the top of a stack</p><br>
+                <p><span>• isEmpty: </span>Check if the stack is empty</p><br>
+                <p><span>• isFull: </span>Check if the stack is full</p><br>
+                <p><span>• Peek: </span>Get the value of the top element without removing it</p><br>
+                
+            </div>
+            <div class="col50">
+                <p> Following are the main operations performed on a linked list.</p><br>
+                <p><span>• Traversal: </span>access each element of the linked list</p><br>
+                <p><span>• Insertion: </span>adds a new element to the linked list</p><br>
+                <p><span>• Deletion: </span>removes the existing elements</p><br>
+                <p><span>• Search: </span>find a node in the linked list</p><br>
+                <p><span>• Sort: </span>sort the nodes of the linked list</p><br>
+                
+            
+            </div>  
+         </div>  
+
+
+
+         <div class="title">
+             <h2 class="titleText"><span>⋄</span>Access elements<span>⋄</span></h2>
+        </div>
+ <div class="content">
+            <div class="row">
+            <div class="col50">
+                <p>
+                   In a stack, only the “top” element can be read, which means that in order to read all the elements of a stack, all must be removed (except the last).</p>
+            </div>
+            <div class="col50">
+                <p> In a linked list, if the programmer wants to access a specific element, it is necessary to traverse each element from the beginning.</p>
+            </div>  
+         </div>  
+
+
+         <div class="title">
+             <h2 class="titleText"><span>⋄</span>Functionality<span>⋄</span></h2>
+        </div>
+ <div class="content">
+            <div class="row">
+            <div class="col50">
+                <p>
+                    A stack works according to the LIFO (Last In First Out) or FILO (First In Last Out) mechanism.</p>
+            </div>
+            <div class="col50">
+                <p> In a linked list, the elements connect to each other by references. Linked List works by storing the data and the addresses of other nodes to refer to each other.</p>
+            </div>  
+         </div>  
+
+
+         <div class="title">
+             <h2 class="titleText"><span>⋄</span>Complexity<span>⋄</span></h2>
+        </div>
+ <div class="content">
+            <div class="row">
+            <div class="col50">
+                <p>
+                    A stack is simpler than a linked list.</p>
+            </div>
+            <div class="col50">
+                <p>  A linked list is more complicated in terms of implementation and working.</p>
+            </div>  
+         </div>  
+
+
+         <div class="title">
+             <h2 class="titleText"><span>⋄</span>Applications<span>⋄</span></h2>
+        </div>
+ <div class="content">
+            <div class="row">
+            <div class="col50">
+                <p><span>• </span>Balancing of symbols</p><br>
+                <p><span>• </span>Infix to Postfix/Prefix conversions</p><br>
+                <p><span>• </span>Redo/Undo features at many places like photoshop</p><br>
+                <p><span>• </span>Forward and Backward feature in web browsers</p><br>
+
+            </div>
+            <div class="col50">
+                <p><span>• </span>Implementation of Stacks and Queues</p><br>
+                <p><span>• </span>Performing arithmetic operations on long integers</p><br>
+                <p><span>• </span>Dynamic memory allocation</p><br>
+                <p><span>• </span>Songs in music player</p><br>
+            </div>  
+         </div>  
+
+ <div class="title">
+             <h2 class="titleText"><span>⋄</span>Conclusion<span>⋄</span></h2>
+        </div>
+
+<p>Stack and Linked List are two linear data structure. A programmer can implement them using any programming language. The main difference between Stack and Linked List is that a Stack works according to the LIFO or FILO mechanism while a Linked List works by storing the data and the addresses of other nodes to refer to each other.</p>  
+        </div> 
+    </section>
+   
+       <div class="copyrightText">
+           <p>Laiba Khalid   20-CS-74</p>
+       </div>
+
+
+
+
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'Poppins', sans-serif;
+  }
+
+p{
+    font-weight: 400;
+    color: #111111;
+}
+
+.banner{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url(bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.49),rgba(0,0,0,0.49)), url(bg.jpg);
+    background-size: cover;
+}
+
+.banner .content h2{
+    font-size: 5em;
+    color: #ffffff;
+    text-align: center;
+}
+.banner .content p{
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+section{
+    padding: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50{
+    width: 48%;
+}
+
+.titleText{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+.titleText span{
+    color: #2E4D64;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.copyrightText{
+    padding: 8px 0px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+       </style>
